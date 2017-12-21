@@ -1,0 +1,1 @@
+<a href="{{ $app_url }}/signup/{{ $token }}">@lang('auth.confirm')</a>

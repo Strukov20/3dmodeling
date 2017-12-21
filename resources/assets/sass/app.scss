@@ -1,0 +1,69 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+img.avatar-sm {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+img.avatar-mini {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+img.avatar-lg {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+textarea{
+  resize: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+img.admin-cat{
+  width: 80%;
+  padding: 10%;
+}
+
+img.material-preview{
+  width: 50px;
+}
+
+img.image-preview{
+  width: 240px;
+}
+
+input[type='file']{
+  height: 100%;
+}
+
+.materials .item{
+  margin: 10px;
+  border-radius: 5px;
+  border-color: #BDC3C7;
+  background-color: #e0e0e0;
+  height: auto;
+}
+
+.materials .item > *{
+  margin: 10px auto;
+  display: block;
+}
+
+img.material{
+  width: 30%;
+}
